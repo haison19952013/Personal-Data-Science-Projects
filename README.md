@@ -11,8 +11,8 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 ## Projects
 1. [Titanic Survival Prediction](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Titanic%20Survival%20Prediction)
     -  **Description:** The project predicts the survival during the titanic disaster based on socio-economic measures
-    - **Technologies Used:** The notebooks uses Descision Tree Classifier
-    - **Results:** The Decision Tree Classifer performed well on the test dataset with an accuracy of 89.5%
+    - **Technologies Used:** The notebooks uses Neural Network
+    - **Results:** The Neural Network performed not too bad on the test dataset with an accuracy of 76.1%
 
 ## License
 This project is licensed under the [GNU License](https://github.com/haison19952013/Personal-Data-Science-Projects/blob/master/LICENSE).  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
