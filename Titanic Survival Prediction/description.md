@@ -52,6 +52,6 @@ Metric Your score is the percentage of passengers you correctly predict. This is
    -  Perform a predictive analysis using different models and select the best model based on the accuracy score.
    -  Keywords: Data transformation, Nested cross-validation, hyperparameter tuning, confusion matrix ,Logistic Regression, Decision Tree, Random Forest, SVM, KNN, etc.
  
- 4. **Prescriptive Analysis**:
+4. **Prescriptive Analysis**:
    -  Provide insights and recommendations on how to improve the model.
    -  Keywords: SHAP, Feature importance, model interpretation, etc.
