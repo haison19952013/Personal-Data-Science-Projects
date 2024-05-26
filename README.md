@@ -16,7 +16,7 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
       - Descriptive Analysis (pie charts, bar plots, histograms, box plots, data imbalance, data cleaning, data wrangling, feature engineering, etc.)
       - Diagnostic Analysis (correlation matrix, scatter plots, pair plots, histogram, etc.)
       - Predictive Analysis (Data transformation, Nested cross-validation, hyperparameter tuning, confusion matrix, Logistic Regression, Decision Tree, Random Forest, SVM, KNN, etc.)
-      - Prescriptive Analysis (SHAP, Feature importance, model interpretation, etc.)
+      - Prescriptive Analysis (SHAP, feature importance, model interpretation, etc.)
     - **Results:** The accuracy of the neural network model on the test dataset is about 78% (Rank 3502/15745, Top 23% on [Kaggle](https://www.kaggle.com/competitions/titanic/overview))
 
 2. [Digital Right Managements](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Digital%20Rights%20Managament)
