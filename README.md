@@ -11,13 +11,22 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 
 ## Projects
 1. [Titanic Survival Prediction](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Titanic%20Survival%20Prediction)
-    -  **Description:** The project predicts the survival during the titanic disaster based on socio-economic measures
+    -  **Description:** The project focus on constructing an end-to-end data analysis project based on the titanic dataset
     - **Keywords:** 
       - Descriptive Analysis (pie charts, bar plots, histograms, box plots, data imbalance, data cleaning, data wrangling, feature engineering, etc.)
       - Diagnostic Analysis (correlation matrix, scatter plots, pair plots, histogram, etc.)
       - Predictive Analysis (Data transformation, Nested cross-validation, hyperparameter tuning, confusion matrix, Logistic Regression, Decision Tree, Random Forest, SVM, KNN, etc.)
       - Prescriptive Analysis (SHAP, Feature importance, model interpretation, etc.)
     - **Results:** The accuracy of the neural network model on the test dataset is about 78% (Rank 3502/15745, Top 23% on [Kaggle](https://www.kaggle.com/competitions/titanic/overview))
+
+2. [Digital Right Managements](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Digital%20Rights%20Managament)
+    -  **Description:** The project focus on extracting data from the MySQL database and creating a BI Dashboard to track DRM key usage accurately.
+    - **Keywords:** 
+      - Data Extraction (MySQL, SQL queries)
+      - Data Visualization (BI Dashboard)
+    - **Results:** 
+      - The data for tracking the DRM key is correctly extracted from the MySQL database.
+      - The BI Dashboard is created to track the DRM key usage accurately.
 
 ## License
 This project is licensed under the [GNU License](https://github.com/haison19952013/Personal-Data-Science-Projects/blob/master/LICENSE).  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
