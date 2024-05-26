@@ -12,8 +12,12 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
 ## Projects
 1. [Titanic Survival Prediction](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Titanic%20Survival%20Prediction)
     -  **Description:** The project predicts the survival during the titanic disaster based on socio-economic measures
-    - **Technologies Used:** The notebooks uses Knearst Neighbors and Gradient Boosting Classifier for the prediction
-    - **Results:** The accuracy on the test dataset is about 76%
+    - **Keywords:** 
+      - Descriptive Analysis (pie charts, bar plots, histograms, box plots, data imbalance, data cleaning, data wrangling, feature engineering, etc.)
+      - Diagnostic Analysis (correlation matrix, scatter plots, pair plots, histogram, etc.)
+      - Predictive Analysis (Data transformation, Nested cross-validation, hyperparameter tuning, confusion matrix, Logistic Regression, Decision Tree, Random Forest, SVM, KNN, etc.)
+      - Prescriptive Analysis (SHAP, Feature importance, model interpretation, etc.)
+    - **Results:** The accuracy of the neural network model on the test dataset is about 78% (Rank 3502/15745, Top 23% on [Kaggle](https://www.kaggle.com/competitions/titanic/overview))
 
 ## License
 This project is licensed under the [GNU License](https://github.com/haison19952013/Personal-Data-Science-Projects/blob/master/LICENSE).  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.

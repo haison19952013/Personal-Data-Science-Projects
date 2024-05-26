@@ -38,5 +38,20 @@ For each in the test set, you must predict a 0 or 1 value for the variable.
 # Metric
 Metric Your score is the percentage of passengers you correctly predict. This is known as [accuracy](https://en.wikipedia.org/wiki/Accuracy_and_precision#In_binary_classification).
 
-# Approach
+# Procedure
+1. **Descriptive Analysis**:
+   -  Understand the data by Exploring the data and visualizing it.
+   -  Create a wrangle function to clean the data and make it ready for the model.
+   -  Keywords: pie charts, bar plots, histograms, box plots, data imbalance, data cleaning, data wrangling, feature engineering, etc.
 
+2. **Diagnostic Analysis**:
+   -  Perform a diagnostic analysis to understand the relationship between the features and the target variable.  
+   -  Keywords: correlation matrix, scatter plots, pair plots,histogram, etc.  
+
+3. **Predictive Analysis**:
+   -  Perform a predictive analysis using different models and select the best model based on the accuracy score.
+   -  Keywords: Data transformation, Nested cross-validation, hyperparameter tuning, confusion matrix ,Logistic Regression, Decision Tree, Random Forest, SVM, KNN, etc.
+ 
+ 4. **Prescriptive Analysis**:
+   -  Provide insights and recommendations on how to improve the model.
+   -  Keywords: SHAP, Feature importance, model interpretation, etc.
