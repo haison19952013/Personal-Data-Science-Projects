@@ -28,6 +28,16 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
       - The data for tracking the DRM key is correctly extracted from the MySQL database.
       - The BI Dashboard is created to track the DRM key usage accurately.
 
+3. [Stock Volatility Forecasting In Vietnam](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Stock%20Volatility%20Forecasting%20In%20Vietnam)
+    - **Description:** The project focus on making an end-to-end production including performing data ETL, construct a forecast model and creating an custom API application to forecast the volatility of the stock market in Vietnam.
+    - **Keywords:** 
+      - Data Extraction (`https://eodhd.com/` API, `Requests`)
+      - Data Transformation (`Pandas`)
+      - Data Loading (`SQLite`)
+      - Forecasting Model (`GARCH`)
+      - API Application (`FastAPI`)
+    - **Results:**
+
 ## License
 This project is licensed under the [GNU License](https://github.com/haison19952013/Personal-Data-Science-Projects/blob/master/LICENSE).  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
 
