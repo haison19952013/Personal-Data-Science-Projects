@@ -19,7 +19,7 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
       - Prescriptive Analysis (SHAP, feature importance, model interpretation, etc.)
     - **Results:** The accuracy of the neural network model on the test dataset is about 78% (Rank 3502/15745, Top 23% on [Kaggle](https://www.kaggle.com/competitions/titanic/overview))
 
-2. [Digital Right Managements](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Digital%20Rights%20Managament)
+2. [Digital Right Managements](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Digital%20Rights%20Management)
     - **Description:** The project focus on extracting data from the MySQL database and creating a BI Dashboard to track DRM key usage accurately.
     - **Keywords:** 
       - Data Extraction (MySQL, SQL queries)
