@@ -3,6 +3,18 @@ import os
 from job_tools import job_scraper
 
 def get_response(user_input: str) -> list:
+    """
+    This function processes the user's command and returns the appropriate responses.
+    
+    Args:
+        - user_input (str): The user's command.
+    
+    Returns:
+        - list: A list of responses based on the user's command.
+    
+    Example:
+    >>> get_response('!itviec-bot show-jobs --n 15 --new --include python-java -exclude data-internship')
+    """
     responses = []
     include_tags = []
     exclude_tags = []
@@ -39,12 +51,22 @@ def get_response(user_input: str) -> list:
     else:
         return ['Invalid commands']
 
-def scrape_new_jobs():
+def scrape_new_jobs() -> None:
     obj = job_scraper()
     obj.scrape(total_page = 1)
     obj.to_datalake()
 
-def reload_jobs(include_tags: list, exclude_tags: list):
+def reload_jobs(include_tags: list, exclude_tags: list) -> pd.DataFrame:
+    """
+    Reloads the job data from the data lakehouse, applying the specified filters.
+
+    Agrs:
+    - include_tags (list): List of tags to include in the job opportunities.
+    - exclude_tags (list): List of tags to exclude from the job opportunities.
+    Returns:
+    - pd.DataFrame: A DataFrame containing the filtered job opportunities.
+
+    """
     if len(os.listdir('data_lakehouse')) == 0: 
         return "No existing database. Please add argument --new to your command to scrape new jobs"
     file_name = os.listdir('data_lakehouse')[-1] # Get the lastest file in the data lakehouse
@@ -60,9 +82,14 @@ def get_csv_rows(responses:list , df: pd.DataFrame, num_rows: int = 5) -> list:
     """
     Reads the first few rows from a CSV file using pandas and formats them into a string.
     Splits the response into chunks to ensure no message exceeds 2000 characters.
-    :param file_path: Path to the CSV file.
-    :param num_rows: Number of rows to display.
-    :return: List of formatted strings, each under 2000 characters.
+
+    Args:
+    - responses (list): List of responses to be added to.
+    - df (pd.DataFrame): The DataFrame to be formatted.
+    - num_rows (int): The number of rows to include in the formatted string.
+    
+    Returns:
+    - list: A list of formatted strings, each under 2000 characters.
     """
 
     try:        

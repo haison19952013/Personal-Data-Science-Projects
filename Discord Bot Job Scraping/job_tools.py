@@ -11,7 +11,7 @@ import numpy as np
 import os
 from functools import wraps
 # %%
-def chrome_driver_operation(retries: int = 3):
+def chrome_driver_operation(retries: int = 3) -> callable:
     """
     Decorator for ChromeDriver operations with retries. The decorator will retry the operation for the given number of times if it fails.
     
@@ -65,7 +65,17 @@ class job_scraper(object):
         self.data_frame = None
         self.data_list = []
 
-    def scrape(self, total_page: int = 1):
+    def scrape(self, total_page: int = 1) -> None:
+        """
+        Scrape job details from the website and store them in the pandas DataFrame.
+        
+        Args:
+            - total_page (int): The total number of pages to scrape. Default is 1.
+
+        Return:
+            - None
+        """
+
         self.get_max_page()
         for page_num in range(1, total_page + 1):
             print("Scraping page: ", page_num)
@@ -75,7 +85,16 @@ class job_scraper(object):
         self.to_datalake()
         print("Scraping completed")
 
-    def scrape_single_page(self, page_num: int = 1):
+    def scrape_single_page(self, page_num: int = 1) -> None:
+        """
+        Scrape job details from a single page of the website and store them in the data_list.
+        
+        Args:
+            - page_num (int): The page number to scrape. Default is 1.
+
+        Return:
+            - None
+        """
         data_list = []
         self.update_job_url(data_list=data_list,  page_num=page_num)
         assert len(data_list) > 0, "No job links are found"
@@ -87,7 +106,11 @@ class job_scraper(object):
             self.update_job_detail(data_dict=data_dict)
         self.data_list += data_list
 
-    def to_datalake(self):
+    def to_datalake(self) -> None:
+        """
+        Save the scraped job details in a pandas DataFrame to a CSV file.
+        The DataFrame includes columns: job title, company name, job location, job description, job link, and posted time.
+        """
         self.data_frame = pd.DataFrame(self.data_list)
         self.data_frame['posted time'] = pd.to_datetime(
             self.data_frame['posted time'])
@@ -102,8 +125,20 @@ class job_scraper(object):
         print(
             f"##### Save the data successfully to './data_lakehouse/{full_name}' #####")
 
-    def to_datawarehouse(self, include_tags: str | list, exclude_tags: str | list, no_save: bool = False):
-        assert self.data_frame is not None, "Data is not reloaded from data lake house"
+    def to_datawarehouse(self, include_tags: str | list, exclude_tags: str | list, no_save: bool = False) -> None | pd.DataFrame:
+        """
+        Filter and save the scraped job details in a pandas DataFrame to a CSV file based on the given tags.
+        The DataFrame includes columns: job title, company name, job location, job description, job link, and posted time.
+
+        Args:
+            - include_tags (str or list): The keyword(s) to include in the job details. Default is None.
+            - exclude_tags (str or list): The keyword(s) to exclude in the job details. Default is None.
+            - no_save (bool): Whether to save the filtered data to a CSV file. Default is False.
+        
+        Return:
+            - None | pd.DataFrame: The filtered DataFrame if no_save is True.
+        """
+        assert self.data_frame is not pd.DataFrame, "Data is not reloaded as a DataFrame from data lake house"
         if isinstance(include_tags, str):
             include_tags = [include_tags]
         if isinstance(exclude_tags, str):
@@ -151,7 +186,17 @@ class job_scraper(object):
                 f"##### Save the data successfully to './data_warehouse/{full_name}' #####")
 
 
-    def load_datalake(self, file_path: str):
+    def load_datalake(self, file_path: str) -> None:
+        """
+        Load the scraped job details from a CSV file into the pandas DataFrame.
+
+        Args:
+            - file_path (str): The path of the CSV file to load.
+        
+        Return:
+            - None
+        """
+
         assert os.path.exists(file_path), "File path does not exist"
         self.data_frame = pd.read_csv(file_path, parse_dates=['posted time'])
         print(self.data_frame.info())
@@ -159,6 +204,15 @@ class job_scraper(object):
 
     @chrome_driver_operation(retries=3)
     def get_max_page(self, driver) -> int:
+        """
+        Fetch the maximum page number from the website.
+
+        Args:
+        - driver (WebDriver): The initialized Chrome WebDriver object.
+        
+        Return:
+        - int: The maximum page number.
+        """
         assert driver is not None, "Driver object is not initialized"
         url = 'https://itviec.com/it-jobs?job_selected=senior-expert-backend-engineer-javascript-nodejs-smg-swiss-marketplace-group-2726&page=1'
         driver.get(url)
@@ -179,6 +233,18 @@ class job_scraper(object):
 
     @chrome_driver_operation(retries=3)
     def update_job_url(self, driver, data_list: list, page_num: int = 1) -> list:
+        """
+        Update the job URLs in the given data list for the given page number.
+
+        Args:
+        - driver (WebDriver): The initialized Chrome WebDriver object.
+        - data_list (list): The list of job details (dict) to update.
+        - page_num (int, optional): The page number for which to update job URLs. Defaults to 1.
+
+        Return:
+        - data_list (list): The updated data list (dict) with job URLs.
+        """
+
         # Assert the arguments
         assert driver is not None, "Driver object is not initialized"
         assert type(data_list) == list, "data_list should be a list"
@@ -215,6 +281,17 @@ class job_scraper(object):
 
     @chrome_driver_operation(retries=3)
     def update_job_detail(self, driver, data_dict: dict) -> dict:
+        """
+        Update the job details for the given job link.
+
+        Args:
+        - driver (WebDriver): The initialized Chrome WebDriver object.
+        - data_dict (dict): The dictionary containing job details (dict) to update.
+        
+        Return:
+        - data_dict (dict): The updated dictionary containing job details (dict).
+
+        """
         # Assert the arguments
         assert driver is not None, "driver object is not initialized"
         assert type(data_dict) == dict, "data_dict should be a dictionary"
