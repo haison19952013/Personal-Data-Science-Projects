@@ -1,64 +1,29 @@
-# The Challenge
-Effective management of digital rights management (DRM) keys is crucial for FPT Television, as it directly impacts business costs and budgeting. However, the lack of a comprehensive BI Dashboard or regular reports has hindered the ability to track and forecast DRM key usage accurately. To address this challenge, s95bet.com Joint Stock Company for Digital Transformation Services has developed this report, providing precise insights into the current key granting situation and forecasting future trends.
+# Motivation
+- Due to the lack of API for getting job information, there is a need to develop a tool to retrieve job information from various popular jobs websites such as [itviec.com](https://itviec.com/),[topdev.vn](https://topdev.vn/), etc.
 
-# What Data Will I Use in This Project?
-Data link: [DRM Key Usage Data](https://drive.google.com/drive/folders/1ViaNctgS91Xre_tGXkwqG_fuOswfs1CO?usp=sharing)
+# Goals
+- [x] Develop a tool to retrieve job information from a single website [itviec.com](https://itviec.com/)
+- [x] The tool then is integrated into a Discord bot to provide job information to users based on their personal preferences
+- [ ] Generalize the tools for more websites such as [topdev.vn](https://topdev.vn/), [linkedin.com](https://linkedin.com), etc.
+- [ ] Use the database such as MySQL to store job information rather than just .csv files
 
-In this project, the data is stored in five tables: 
-1. Log_BHD_Movieid (FACT): Contains customer ID and movie ID from BHD company
-2. Log_FimPlus_Movieid (FACT): Contains customer ID and movie ID from Fimplus company
-3. Log_Get_DRM_list (FACT): Contains customer ID and movie ID from FimGoi group
-4. Customer (DIM): Contains information of customers such as customers ID, MAC address and the account created date
-5. CustomerService (DIM): Contains information of customers that pays for using products of FimGoi
-6. MV_PropertiesShowVN (DIM): Contains the movie ID and the bool value to check whether the products requiring DRM keys from BHD and Fimplus or not
 
 # Data Dictionary
-Table: MV_PropertiesShowVN (DIM)
-| Column Name | Type    |
-|-------------|---------|
-| id (PK)     | int     |
-| isDRM       | bool    |
-
-Table: Log_BHD_Movieid (FACT)
-| Column Name      | Type    |
-|------------------|---------|
-| CustomerID (PK)  | int     |
-| MovieID (FK)     | int     |
-
-Table: Log_FimPlus_Movieid (FACT)
-| Column Name     | Type |
-|-----------------|------|
-| CustomerID (PK) | int  |
-| MovieID (FK)    | int  |
-
-Table: Log_Get_DRM_list (FACT)
-| Column Name     | Type      |
-|-----------------|-----------|
-| CustomerID (PK) | int       |
-| Mac (PK)        | int       |
-| Date            | timestamp |
-
-Table: Customer (DIM)
-| Column Name     | Type      |
-|-----------------|-----------|
-| customerid (PK) | int       |
-| mac (PK)        | int       |
-| created_date    | timestamp |
-
-Table: CustomerService (DIM)
-| Column Name     | Type      |
-|-----------------|-----------|
-| CustomerID (PK) | int       |
-| ServiceID       | int       |
-| Amount          | float     |
-| Date            | timestamp |
-
-# Goal
-The main goal is to provide a comprehensive BI Dashboard or regular reports to track DRM key usage accurately.
+| Columne Name   | Type     |
+|----------------|----------|
+| job link       | str      |
+| job title      | str      |
+| company name   | str      |
+| location       | str      |
+| work type      | str      |
+| jd             | str      |
+| requirement    | str      |
+| posted time    | datetime |
+| thumbnail link | str      |
 
 # Procedure
-1. Load the data from the `MySQL` database
-2. Query the data to get the daily usage of DRM keys
-3. Create a BI Dashboard or regular reports to track DRM key usage accurately
-- keywords: MySQL, BI Dashboard, DBeaver
+- Construct `job_tools.py`, including functions to scrape job information from [itviec.com](https://itviec.com/)
+- Construct `discord_bot.py` to interact with users commands and processes them. This script will require a Discord bot token to run. 
+- Construct `responses.py` to receive responses from users and return job information based on their preferences using functions from `job_tools.py`
+- Create a Discord server, create an Discord application, create a bot, generate the token, and invite the bot to the server
 
