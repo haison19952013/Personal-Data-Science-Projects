@@ -1,0 +1,177 @@
+job title,company name,location,work type,jd,requirement,thumbnail link
+senior test leader,capgemini vietnam,"106 nguyen van troi, phu nhuan, ho chi minh",at office,"
+job description
+ key responsibilities include the following:  
+driving sprint planning, test planning, test design, test execution & defect management, reporting to stakeholders 
+drive an approach for system, component, sit and integration test with automation first approach. 
+proficient in creating/ maintaining test beds and test docs (like test scope, test plan, test summary report) for st and sit phases. 
+manage/ deliver test execution for the new features in different testing life cycles.
+experience of leading a small team around 6 team members and exhibit leadership qualities- stakeholder management and effective communication to project and business team. 
+experience test scoping, estimation of efforts, creation test artefacts delivery - test plan, tsr, daily updates and drive & deliver the st, sit testing outcome within agreed timeline and scope. 
+proactively address issues discovered in the software testing, defect triage, and prioritisation towards the fixing the issues. 
+create, maintain the automation scripts and suit for sit flow where applicable. 
+drive an automation-led approach for testing across company 
+provide insights to quality metrics including trend analysis of discrepancies and defects 
+proactively manage risk, meeting policy and compliance requirements 
+innovate and embed quality engineering practices in all facets of your work 
+own, manage and demonstrate uplift from pirs for continuous improvement on the release process. 
+coach and mentor junior automation engineers 
+executing on, and coding automated tests for the feature, system, and integrated systems testing phases 
+tracking progress of allocated test designs and test cases to ensure testing deadlines will be met 
+
+
+generate test report
+good communication in english is a must
+
+","
+your skills and experience
+what you will bring: 
+typically at least 7+ years of automation experience in web and api testing.
+experience in developing automation framework (web/ api) from scratch and deliver as a service 
+hands-on experience with implementing test tooling, building and maintaining automation frameworks for various application architectures (eg web, desktop, microservices/api, etc) 
+experience in sit testing with complex integration systems and defect management. 
+api/microservices testing experience (both restful and mq) 
+proficient in one or more programming language – java, javascript, python, typescript 
+demonstrated experience in leveraging different automation tools & libraries (java, selenium, api testing framework, perfecto, git, jenkins, autosdk, selenium., etc) 
+significant experience working with ci/cd (jenkins/harness) or docker is highly beneficial 
+proficiency in driving the strategy, implementation, and execution of test automation solutions 
+ability to confidently communicate with all levels of management and clearly articulate complex technical issues to peers and stakeholders 
+
+
+nice to have: 
+sound experience /knowledge in financial crime or fraud domain 
+working experience in banking/finance industry will be well regarded. 
+
+",https://itviec.com/rails/active_storage/representations/proxy/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbahbbmklvree9psisimv4cci6bnvsbcwichvyijoiymxvyl9pzcj9fq==--0ceb2cfb2315f9f141222d46e386b8d63521d9bb/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbaddcem9mwm05ewjxrjbtu0ljyw5cbkjqb0dsvle2rw5kbgmybdzavjkwyje5bwfyumjcmmtccwpbpsisimv4cci6bnvsbcwichvyijoidmfyawf0aw9uin19--89a7283b6fdfb4208cdc2b440a36613a6fae974c/capgemini-vietnam-logo.jpg
+"senior database specialist (database, aws)",tyme,"tầng 6 – 7, khu văn phòng, số 277 võ nguyên giáp, phường an phú, thành phố thủ đức, thành phố hồ chí minh, việt nam, thu duc city, ho chi minh",hybrid,"
+job description
+we are looking for an experienced senior database specialist (dba) in aws to join our team and play a crucial role in supporting our engineering and business operations. as a dba, you will be responsible for managing and optimizing our databases on the aws cloud platform, as well as collaborating, consulting, reviewing, and designing database solutions with cross-functional teams to ensure successful implementation.your expertise in aws services, database administration, and data security will be vital in ensuring the reliability, scalability, and performance of our databases. the ideal candidate is a self-motivated professional with a strong background in aws cloud technologies and a passion for optimizing database systems to drive business success. main responsibilities:
+
+database management: design, evaluate, consult, and deploy aws-based database solutions, including rds (mysql, postgresql, sql server, etc..), aurora, dynamodb and other database services that ensure high availability, scalability, and performance.
+
+performance tuning: monitor and optimize database performance, proactively identifying and resolving performance issues, resource utilization and scalability.
+
+backup & recovery: implement and manage robust aws backup, recovery and disaster recovery solutions, ensuring data integrity and availability.
+
+migration & upgrades: plan and execute database migration, upgrades, and data migration tasks with minimal downtime and description to services.
+
+collaboration: work closely with development teams to optimize database schemas and queries for improved application performance to meet business requirements.
+
+security management: implement and enforce security measures to protect sensitive data and ensure compliance with data protection regulations
+
+consulting: troubleshoot and resolve database-related issues, providing timely and effective technical support.
+stay updated with aws best practices and industry trends, recommending and implementing improvements as needed.
+
+","
+your skills and experience
+must-have skills:
+bachelor's or master's degree in computer science, information technology, or a related field.
+proven work experience as a database administrator with a focus on aws cloud technologies
+in-depth knowledge of aws services related to databases, such as amazon rds, amazon aurora, amazon dynamodb, etc.
+proficiency in database administration, optimization, and performance tuning on aws
+experience with database security and implementing access controls on the aws platform
+strong understanding of data migration, backup, and disaster recovery strategies on aws.]
+familiarity with scripting and automation using the aws cli, python, or other relevant languages.
+excellent problem-solving skills and the ability to diagnose and resolve complex database issues.
+strong communication and collaboration skills to work effectively with cross-functional teams.
+experience in sdlc and agile methodologies.
+ability to work independently and as part of a team.
+nice-to-have:
+experience in the banking or finance industry is a plus.
+aws certification(s) related to database administration is a plus.
+
+",https://itviec.com/rails/active_storage/representations/proxy/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbahbbk0xptee9psisimv4cci6bnvsbcwichvyijoiymxvyl9pzcj9fq==--e622a8382b21b032819f520d792bef976ace053e/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbaddcem9mwm05ewjxrjbtu0ljy0c1bkjqb0dsvle2rw5kbgmybdzavjkwyje5bwfyumjcmmtccwpbpsisimv4cci6bnvsbcwichvyijoidmfyawf0aw9uin19--79eee5883893a012786006950460867831e6f661/tx_rgb_primary_onwhite.png
+technical lead,viettel software services (a member of viettel group),"tòa nhà thành công, 80 dịch vọng hậu, cau giay, ha noi",at office,"
+job description
+
+phân tích yêu cầu kỹ thuật của sản phẩm, lựa chọn công nghệ và xây dựng kiến trúc hệ thống cho sản phẩm và hệ thống nội bộ của công ty
+là người định hướng và đưa ra các giải pháp kỹ thuật cho các dự án của công ty 
+sizing hệ thống
+đánh giá cấu trúc hệ thống hiện tại, đề xuất các giải pháp để cải thiện hệ thống, giám sát và hướng dẫn team dev thực hiện các giải pháp đưa ra
+giải quyết các vấn đề kỹ thuật phát sinh
+nghiên cứu các công nghệ hiện và đề xuất thay đổi khi cần thiết
+
+","
+your skills and experience
+
+có ít nhất 5 năm kinh nghiệm làm việc trong lĩnh vực phát triển phần mềm. 
+hiểu biết sâu rộng về các ngôn ngữ lập trình và framework như java/python và các công nghệ web. 
+có kinh nghiệm với các phương pháp phát triển phần mềm như agile, scrum, và devops. 
+đã từng làm việc trong vị trí teamlead trong dự án phần mềm. hiểu biết về quản lý dự án, kế hoạch hóa, và theo dõi tiến độ dự án. 
+có kiến thức về các khái niệm kỹ thuật như an toàn thông tin, hiệu năng, tính sẵn sàng của hệ thống,..
+có kinh nghiệm làm việc với các công nghệ tích hợp như redis, kafka, nginx, api gateway... 
+có kinh nghiệm về tối ưu database, sql, source code.
+có khả năng giải quyết các vấn đề kỹ thuật phức tạp và đưa ra các giải pháp hiệu quả. 
+có khả năng viết báo cáo và tài liệu kỹ thuật một cách rõ ràng và dễ hiểu. 
+sử dụng thành thạo các công cụ quản lý mã nguồn như git, svn. 
+có kinh nghiệm triển khai và làm việc trên nền tàng microservices, ci/cd
+hiểu biết về quản lý cơ sở dữ liệu và các công nghệ liên quan.
+
+",https://itviec.com/rails/active_storage/representations/proxy/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbahbbegfevgc9psisimv4cci6bnvsbcwichvyijoiymxvyl9pzcj9fq==--b07579166f61966f508e32bc6ca6ac13e9c9dabd/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbaddcem9mwm05ewjxrjbtu0ljy0c1bkjqb0dsvle2rw5kbgmybdzavjkwyje5bwfyumjcmmtccwpbpsisimv4cci6bnvsbcwichvyijoidmfyawf0aw9uin19--79eee5883893a012786006950460867831e6f661/logo%20vtit.png
+"sub project manager (python,java, aws)",yrglm việt nam,"308 robot tower, dien bien phu, district 3, ho chi minh",at office,"
+job description
+ job summary: 
+we will entrust you with the application development work of our marketing dx support service such as ""ad ebis"" ""adrepo"", ""new product"" an advertising effectiveness measurement platform with the largest market share in the industry.
+to manage software development project including but not limited to project planning, project budgeting, resource management, risk management, quality management 
+to co-ordinate with japan's it or infra department for infrastructure setup if requested: development enviroment setting, security scan, release preparation etc..
+to co-ordinate with qc team to define/tailoring software development process, quality control process to ensure high quality product base on quantitative quality standars ( iso,cmm) 
+to co-ordinate with other project stakeholder such as requirement definition team, qc, cc etc. to make sure that the projects meet clients’ requirements.
+to organize a united team where all team members can communicate & contribute on assigned activities.
+to produce activity reports for all operations of the team (daily, weekly & ad-hoc) 
+to make a development wbs and schedule to ensure delivery product on time. 
+
+","
+your skills and experience
+※ we're wellcome all candiates who have highly motivated, ambitious, and responsible spirit and aspire to become pm or executive management candidates in the future!       the following skills and experience are required:necessary:
+university degree, preferably in it field
+
+more than 2 years of sub pm or team leader experience in a project with 5 or more members
+mastered at least one project management methodology and is familiar with others (waterfall/ agile/ scrum,...) 
+experience of at least one software development lifecycle and is familiar with others 
+experience of monitoring project quality, risk management ・master of at least one software development estimation method
+project qcd management, problem solving skill
+communication skills (verbal, written) 
+plus point:
+japanese skill
+passion for services and corporate growth
+system development experience with japanese companies/joint project experience with japanese engineers
+have experience of development experience using python,java, aws
+
+have experience using database (mssql, postgresql, mongodb, elasticsearch, etc.)
+education of project team members
+high sense of organization and responsibility 
+
+",https://itviec.com/rails/active_storage/representations/proxy/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbahbbk2torwc9psisimv4cci6bnvsbcwichvyijoiymxvyl9pzcj9fq==--7801e847d699eb8936bd527edcdd08472e92f4be/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbaddcem9mwm05ewjxrjbtu0ljy0c1bkjqb0dsvle2rw5kbgmybdzavjkwyje5bwfyumjcmmtccwpbpsisimv4cci6bnvsbcwichvyijoidmfyawf0aw9uin19--79eee5883893a012786006950460867831e6f661/lockon-logo.png
+"devops engineer (aws, english required)",ekino vietnam,"the emporium, 3rd floor, 184 le dai hanh, ward 15, district 11, ho chi minh city, district 11, ho chi minh",hybrid,"
+job description
+job summaryan aws devops engineer with expertise in cloud infrastructure, automation, and security. responsibilities include designing, implementing, and maintaining scalable and secure aws-based solutions, ensuring high availability and performance, and optimizing costs. the ability to collaborate effectively in a fast-paced environment is essential. job description
+
+cloud infrastructure: manage aws services (ec2, s3, rds, lambda) with iac tools (aws cdk, terraform cdk, ansible, chef, cloudformation).
+
+automation and ci/cd: develop ci/cd pipelines (jenkins, gitlab ci/cd) and automate deployments (ansible, puppet, chef).
+
+performance and scalability: optimize resources, implement auto-scaling, and conduct performance monitoring.
+
+security and compliance: ensure security best practices and compliance (gdpr, hipaa), manage encryption and dlp.
+
+backup and disaster recovery: design and test disaster recovery plans, ensuring business continuity with backups and high availability.
+
+monitoring and incident management: implement monitoring (elk, prometheus, grafana) and manage incidents and system health.
+
+documentation and communication: create technical documentation and sops; communicate updates to stakeholders.
+
+collaboration and teamwork: work with cross-functional teams, mentor members, and participate in agile methodologies (scrum, kanban).
+
+","
+your skills and experience
+desired skills and experience
+bachelor's degree in computer science, engineering, or related field
+proven experience with aws services and devops tools. hands-on experience with iac tools (aws cloudformation, aws cdk, tfcdk). experience with ci/cd tools (jenkins, gitlab ci/cd)
+capability in one or more of python, ruby, groovy, and shell scripting
+knowledge of containerization and orchestration tools
+experience with performance tuning, scalability, and high availability architectures
+good communication in english
+problem-solving skills
+communication and collaboration skills: able to work independently and in a team environment. 
+nice-to-have skills:preferred qualifications: certifications in aws (aws certified devops engineer, aws certified solutions architect) or similar.
+",https://itviec.com/rails/active_storage/representations/proxy/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbahbbmdbft2c9psisimv4cci6bnvsbcwichvyijoiymxvyl9pzcj9fq==--aecc640e9067432cc738d21a7f2769492d395213/eyjfcmfpbhmionsibwvzc2fnzsi6ikjbaddcem9mwm05ewjxrjbtu0ljy0c1bkjqb0dsvle2rw5kbgmybdzavjkwyje5bwfyumjcmmtccwpbpsisimv4cci6bnvsbcwichvyijoidmfyawf0aw9uin19--79eee5883893a012786006950460867831e6f661/logo-vietnam-square.png
