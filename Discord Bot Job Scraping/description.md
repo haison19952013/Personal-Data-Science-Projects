@@ -25,5 +25,5 @@
 - Construct `job_tools.py`, including functions to scrape job information from [itviec.com](https://itviec.com/)
 - Construct `discord_bot.py` to interact with users commands and processes them. This script will require a Discord bot token to run. 
 - Construct `responses.py` to receive responses from users and return job information based on their preferences using functions from `job_tools.py`
-- Create a Discord server, create an Discord application, create a bot, generate the token, and invite the bot to the server
+- Create a Discord server, create an Discord application, create a bot, generate the token, and invite the bot to the server (see the [tutorial](https://www.youtube.com/watch?v=itLd9-U6UBA))
 
