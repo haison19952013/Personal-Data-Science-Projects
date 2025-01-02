@@ -28,7 +28,7 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
       - The data for tracking the DRM key is correctly extracted from the MySQL database.
       - The BI Dashboard is created to track the DRM key usage accurately.
 
-3. [Stock Volatility Forecasting In Vietnam](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/master/Stock%20Volatility%20Forecasting%20In%20Vietnam)
+3. [Stock Volatility Forecasting In Vietnam](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/6c580e7d1f5b965a29d865d8179cb8b9236850e1/Stock%20Volatility%20Forecasting%20In%20Vietnam)
     - **Description:** The project focus on making an end-to-end production including performing data ETL, construct a forecast model and creating an custom API application to forecast the volatility of the stock market in Vietnam.
     - **Keywords:** 
       - Data Extraction (`https://eodhd.com/` API, `Requests`)
@@ -37,6 +37,18 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
       - Forecasting Model (`GARCH`)
       - API Application (`FastAPI`)
     - **Results:**
+      - To be updated
+  
+4. [AB Testing Advertising Campaign](https://github.com/haison19952013/Personal-Data-Science-Projects/tree/6c580e7d1f5b965a29d865d8179cb8b9236850e1/AB%20Testing%20Advertising%20Campaign)
+    - **Description:** The project focus on analyzing the results of an A/B test for an advertising campaign.
+    - **Keywords:** 
+      - Exploratory Data Analysis (Data Cleaning, Data Wrangling, Data Visualization)
+      - Hypothesis Testing (A/B Testing, T-Test, Permutation Test)
+    - **Results:**
+      - No significant difference in the `# of Purchases` between the two groups in the advertising campaign.
+      - Need more improvements in designing the advertising campaign.
+      - Need more data to make a more accurate decision.
+
 
 ## License
 This project is licensed under the [GNU License](https://github.com/haison19952013/Personal-Data-Science-Projects/blob/master/LICENSE).  Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
