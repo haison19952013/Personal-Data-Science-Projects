@@ -9,7 +9,7 @@ class prompt_process:
       self.prompt_set = pd.read_excel(self.file_path)
 
     def get_prompt(self, prompt_id):
-        prompt = f'''Mục tiêu: {self.prompt_set.loc[prompt_id,'Mục tiêu']}
+        prompt = f'''Mục tiêu: {self.prompt_set.loc[prompt_id,'Mục tiêu']}\n
                 {self.prompt_set.loc[prompt_id,'Ràng buộc']}\n
                 {self.prompt_set.loc[prompt_id,'Hồ sơ']}\n
                 {self.prompt_set.loc[prompt_id,'Đặc điểm']}\n
