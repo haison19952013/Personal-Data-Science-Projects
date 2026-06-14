@@ -67,4 +67,4 @@ If you are hiring for data science, machine learning, analytics, or BI roles, fe
 
 ## License
 
-This repository is licensed under the [GNU License](./LICENSE).
+This repository is licensed under the [GNU General Public License v3.0](./LICENSE).
