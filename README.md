@@ -1,4 +1,4 @@
-# Haison's Data Science Portfolio
+# Son Le's Data Science Portfolio
 
 This repository showcases hands-on data science and analytics projects across machine learning, experimentation, forecasting, business intelligence, and applied Python.
 
