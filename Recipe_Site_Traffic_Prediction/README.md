@@ -5,7 +5,7 @@ This project focuses on predicting recipe site traffic based on recipe features.
 
 ## Files
 - `Recipe Site Traffic Prediction.pdf` — Full project report
-- `Recipe Site Traffic Prediction_presentation.pdf` — Presentation slides summarising the project
+- `Recipe Site Traffic Prediction_presentation.pdf` — Presentation slides summarizing the project
 
 ## Goals
 - Build a predictive model to classify whether a recipe will generate high traffic
