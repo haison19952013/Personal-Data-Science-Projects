@@ -15,6 +15,7 @@ This repository showcases hands-on data science and analytics projects across ma
 |---|---|---|---|
 | [Titanic Survival Prediction](./Titanic%20Survival%20Prediction) | End-to-end classification and model interpretation | Python, scikit-learn, SHAP | Reached about 78% test accuracy and ranked in the top 23% on Kaggle |
 | [Stock Volatility Forecasting In Vietnam](./Stock%20Volatility%20Forecasting%20In%20Vietnam) | ETL, time-series forecasting, and API development | Python, Pandas, SQLite, GARCH, FastAPI | Built a workflow that collects market data, trains a forecasting model, and serves predictions |
+| [Data Engineering Journey](./Data%20Engineering%20Journey) | Data engineering portfolio spanning ETL, streaming, analytics engineering, and cloud workflows | Python, SQL, Bash, Kafka, Spark, PostgreSQL, MongoDB, Airflow, dbt | Demonstrates progression from core data skills to end-to-end pipeline design across multiple production-style projects |
 | [AB Testing Advertising Campaign](./AB%20Testing%20Advertising%20Campaign) | Experiment analysis and statistical testing | Python, visualization, t-test, permutation test | Evaluated whether a test campaign outperformed a control campaign and identified no significant difference |
 | [Digital Rights Management](./Digital%20Rights%20Management) | BI reporting and usage tracking | SQL, MySQL, Power BI / BI dashboarding | Built reporting to monitor DRM key usage and support forecasting and budgeting |
 
@@ -44,13 +45,14 @@ This repository showcases hands-on data science and analytics projects across ma
 
 - `Titanic Survival Prediction/` — classification project based on the Titanic dataset
 - `Stock Volatility Forecasting In Vietnam/` — volatility forecasting workflow and supporting Python modules
+- `Data Engineering Journey/` — featured overview of a separate repository focused on ETL, streaming, analytics engineering, and cloud data pipelines
 - `AB Testing Advertising Campaign/` — experiment analysis notebook and documentation
 - `Digital Rights Management/` — BI dashboard assets and supporting project files
 - `Fraud Detection/`, `Recipe_Site_Traffic_Prediction/`, `Shop_the_Look_Recommender/` and more — additional portfolio work in progress or under expansion
 
 ## Core tools used across projects
 
-`Python` `Pandas` `scikit-learn` `SQL` `SQLite` `MySQL` `FastAPI` `Power BI` `Data Visualization` `Hypothesis Testing` `Time-Series Forecasting`
+`Python` `Pandas` `scikit-learn` `SQL` `SQLite` `MySQL` `PostgreSQL` `FastAPI` `Kafka` `Spark` `dbt` `Airflow` `MongoDB` `Power BI` `Data Visualization` `Hypothesis Testing` `Time-Series Forecasting`
 
 ## What recruiters and hiring managers can expect
 
